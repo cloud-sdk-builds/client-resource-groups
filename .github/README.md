@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-resource-groups`](https://www.npmjs.com/package/@aws-sdk/client-resource-groups/v/3.421.0).
+[`@aws-sdk/client-resource-groups`](https://www.npmjs.com/package/@aws-sdk/client-resource-groups/v/3.423.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.421.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.423.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-XxzJVdcYxD6Iq5/qQYTjOeRiTgSOCWrJfQd+PvRrwnT4MQvotoVCYpYtPYj+jQd/
+sha384-Ki1ioM3xw80LVVwNMXYPBz5rpboYdAu95LM6vRoGhpEZBt3B26tvIe6rNqZaXumI
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-resource-groups": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.421.0/index.min.mjs"
+            "@aws-sdk/client-resource-groups": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.423.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.421.0/index.min.mjs": "sha384-XxzJVdcYxD6Iq5/qQYTjOeRiTgSOCWrJfQd+PvRrwnT4MQvotoVCYpYtPYj+jQd/"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.423.0/index.min.mjs": "sha384-Ki1ioM3xw80LVVwNMXYPBz5rpboYdAu95LM6vRoGhpEZBt3B26tvIe6rNqZaXumI"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-resource-groups": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.421.0/index.min.mjs"
+                        "@aws-sdk/client-resource-groups": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.423.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.421.0/index.min.mjs": "sha384-XxzJVdcYxD6Iq5/qQYTjOeRiTgSOCWrJfQd+PvRrwnT4MQvotoVCYpYtPYj+jQd/"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups@3.423.0/index.min.mjs": "sha384-Ki1ioM3xw80LVVwNMXYPBz5rpboYdAu95LM6vRoGhpEZBt3B26tvIe6rNqZaXumI"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.421.0`)
+* Always pin to a specific version (`@3.423.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-resource-groups/blob/refs/tags/3.421.0/LICENSE
+https://github.com/cloud-sdk-builds/client-resource-groups/blob/refs/tags/3.423.0/LICENSE
 ```
 
 ---
